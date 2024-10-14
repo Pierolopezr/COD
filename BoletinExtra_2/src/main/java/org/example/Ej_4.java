@@ -10,15 +10,15 @@ public class Ej_4 {
         dineroTotal = sc.nextDouble();
         sc.close();
         System.out.println(dineroTotal);
-        B100=(int)(dineroTotal/100);
-        dineroTotal = dineroTotal-B100*100;
-        B20=(int)(dineroTotal/20);
-        dineroTotal = dineroTotal-B20*20;
-        B5 = (int)(dineroTotal/5);
-        dineroTotal=dineroTotal-B5*5;
+        B100=(int)(dineroTotal/100); // Calculo para saber cuantos billetes de 100 serian posibles
+        dineroTotal = dineroTotal-B100*100; // Calculo para saber cuanto dinero queda y que es menor de billetes de 100
+        B20=(int)(dineroTotal/20); // Calculo para saber cuantos billetes de 20 serian posibles
+        dineroTotal = dineroTotal-B20*20; // Calculo para saber cuanto dinero queda y que es menor de billetes de 20
+        B5 = (int)(dineroTotal/5); // Calculo para saber cuantos billetes de 5 serian posibles
+        dineroTotal=dineroTotal-B5*5; // Calculo para saber cuanto dinero queda y que es menor de billetes de 5
         M1=(int)dineroTotal;
-        dineroTotal = (dineroTotal-M1)*100+0.0001;
-        System.out.println(dineroTotal);
+        dineroTotal = (dineroTotal-M1)*100+0.0001; // Peuqueña correccion para que en numeros cercanos al 10 los detecte bien y no como un 9.9999...
+        System.out.println(dineroTotal); // a partir de aqui es lo mismo pero con las monedas de centimos
         M05 = (int)dineroTotal/50;
         dineroTotal= dineroTotal-M05*50;
         M02 = (int)dineroTotal/20;
