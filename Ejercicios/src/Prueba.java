@@ -1,6 +1,12 @@
 import java.util.Scanner;
+
+/**
+ *  Este código recoje por teclado un número entre el 0 y el 99 y lo devuelve en letra
+ * @version 1.0
+ * @author Jorge Durán Cruz
+ */
+
 public class Prueba {
-    //Entre un 0 y 99 el usuario elije uno y hay que pasarlo a letras
     public static void main(String[]args){
         int decenas, unidades,yComprobador;
         Scanner sc = new Scanner(System.in);
