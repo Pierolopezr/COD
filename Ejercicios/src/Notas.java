@@ -1,4 +1,10 @@
 import java.util.Scanner;
+
+/**
+ * Este código recoje por teclado la nota que sacaste y te devuelve si estas suspenso, si sacaste un suficiente, un bien , un notable o un sobresaliente
+ * @version 1.0
+ * @author Jorge Durán Cruz
+ */
 public class Notas {
     public static void main(String[]args){
         int nota;
