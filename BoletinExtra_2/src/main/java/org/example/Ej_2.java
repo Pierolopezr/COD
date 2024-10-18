@@ -1,5 +1,10 @@
 package org.example;
 import java.util.Scanner;
+/**
+ * Este código te pide la temperatura en grados centigrados y te devuelve la equivalencia en grados Kelvin y Farenhait
+ * @version 1.0
+ * @author Jorge Durán Cruz
+ */
 public class Ej_2 {
     public static void main(String[] args) {
         double C,F,K;
