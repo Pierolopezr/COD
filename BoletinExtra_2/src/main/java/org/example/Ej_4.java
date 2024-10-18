@@ -1,5 +1,10 @@
 package org.example;
 import java.util.Scanner;
+/**
+ * Este código te pide cuanto dinero tienes con centimos y te devuelve todos los tipos de billestes y monedas mínimos que necesitas para tener ese dinero
+ * @version 2.1
+ * @author Jorge Durán Cruz
+ */
 public class Ej_4 {
     public static void main(String []args){
         int B100,B20,B5,M1;
