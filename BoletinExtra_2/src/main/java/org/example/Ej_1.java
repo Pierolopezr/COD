@@ -1,5 +1,10 @@
 package org.example;
 import java.util.Scanner;
+/**
+ * Este código te pide el precio de un proucto y lo que has pagado por el, luego te devuelve el descuento que tenia el producto
+ * @version 1.0
+ * @author Jorge Durán Cruz
+ */
 public class Ej_1 {
     public static void main(String[]args){
         double desconto,precioP,precioO;
