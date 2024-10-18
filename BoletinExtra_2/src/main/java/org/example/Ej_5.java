@@ -1,5 +1,11 @@
 package org.example;
 import java.util.Scanner;
+
+/**
+ * Este código te devuelve tu sueldo bruto y tu sueldo fluido en funcion de los dias que te hayas desplazado, los kilometros que hayas recorrido, las ventas que hayas hecho y tu sueldo fijo
+ * @version 1.0
+ * @author Jorge Durán Cruz
+ */
 public class Ej_5 {
     public static void main(String[]args){
         int diasDesplazamiento;
