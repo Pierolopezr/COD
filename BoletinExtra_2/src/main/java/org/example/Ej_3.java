@@ -1,5 +1,10 @@
 package org.example;
 import java.util.Scanner;
+/**
+ * Este código te pide el numero de billestes de cada tipo y cuantas monedas de 1 € que tengas y te devuelve cuanto dinero tienes en total
+ * @version 1.0
+ * @author Jorge Durán Cruz
+ */
 public class Ej_3 {
     public static void main(String[] args) {
         int B100,B20,B5,M1;
