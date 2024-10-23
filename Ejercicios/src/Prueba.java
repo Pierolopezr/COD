@@ -19,12 +19,12 @@ public class Prueba {
         sc.close();
         //divido el numero selleccionado entre 10 para saber cuantas decenas tiene el número seleccionado
         decenas = numero/10;
+        //le resto al numero las decenas que tiene para saber las unidades
+        unidades = numero-decenas*10;
         //compruebo si el numero es 0, si lo es escribe directamente cero si no entonces sigue con normalidad
         if(numero !=0){
             // compruebo si el numero es menor que 15 ya que son posibilidades que se eliminan dentro del if
             if (numero>15){
-                //le resto al numero las decenas que tiene para saber las unidades
-                unidades = numero-decenas*10;
                 //aqui igualo "yComrobador" con "unidades" para saber si el número tiene una y para separar su nombre
                 yComprobador = unidades;
                 //este switch escribe el nombre de las decenas gracias a la variable "decenas"
