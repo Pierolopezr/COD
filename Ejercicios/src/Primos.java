@@ -13,14 +13,10 @@ public class Primos {
         int divisores =0;
         for (int i =1;i<n;i++){
             for (int j=2;j<i; j++){
-                if (i%j==0){
-                    divisores++;
-                }
+                if (i%j==0) divisores++;
             }
-            if (divisores == 0){
-                System.out.print(i+",");
-            }
-            else {divisores =0;}
+            if (divisores == 0) System.out.print(i+",");
+            else divisores =0;
         }
     }
 }
