@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Primos {
     public static void main(String[]args){
         Scanner sc = new Scanner(System.in);
-        System.out.println("¿Qué número eliges?");
+        System.out.println("¿Qué n úmero eliges?");
         int n = sc.nextInt();
         sc.close();
         int divisores =0;
