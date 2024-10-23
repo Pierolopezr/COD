@@ -1,15 +1,13 @@
 /**
  * Este código te devuelve los multiplos de 7 menores de 100
- * @version 1.0
+ * @version 1.1
  * @author Jorge Durán Cruz
  */
 public class Multiplos {
     public static void main(String[] args){
-        for (int i=0;i<100;){
+        for (int i=0;i<96;){
             i = i+7;
-            if (i<100){
-                System.out.println(i);
-            }
+            System.out.println(i);
         }
     }
 }
